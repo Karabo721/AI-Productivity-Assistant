@@ -1,4 +1,13 @@
-function generateEmail() {
+function showEmailGenerator() {
+
+    let section = document.getElementById("emailGenerator");
+
+    if (section.style.display === "none") {
+        section.style.display = "block";
+    } else {
+        section.style.display = "none";
+    }
+}function generateEmail() {
 
     let purpose = document.getElementById("purpose").value;
     let tone = document.getElementById("tone").value;
