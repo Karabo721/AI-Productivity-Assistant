@@ -33,3 +33,31 @@ h1 {
 .card h2 {
     color: #38bdf8;
 }
+.email-generator {
+    text-align: center;
+    padding: 40px;
+}
+
+input, select {
+    padding: 12px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #38bdf8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 20px;
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+}
