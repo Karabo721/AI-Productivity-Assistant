@@ -23,11 +23,8 @@ h1 {
     padding: 40px;
 }
 
-.card {text-decoration: none;
-color: white;
-transition: 0.3s;
-       .card:hover {
-    transform: scale(1.05);
+.card 
+      
 }
     background-color: #1e293b;
     padding: 25px;
