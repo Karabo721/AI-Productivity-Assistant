@@ -1,4 +1,14 @@
-function showEmailGenerator() {
+function openFeature(feature) {
+
+    // hide all sections
+    document.getElementById("email").style.display = "none";
+    document.getElementById("summarizer").style.display = "none";
+    document.getElementById("planner").style.display = "none";
+    document.getElementById("chatbot").style.display = "none";
+
+    // show selected section
+    document.getElementById(feature).style.display = "block";
+}function showEmailGenerator() {
 
     let section = document.getElementById("emailGenerator");
 
