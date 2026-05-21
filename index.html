@@ -7,13 +7,30 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+<script src="script.js"></script>
 <body>
 
     <header>
         <h1>AI Productivity Assistant</h1>
         <p>Smart AI tools for workplace productivity and automation.</p>
     </header>
+<section class="email-generator">
 
+    <h2>Smart Email Generator</h2>
+
+    <input type="text" id="purpose" placeholder="Enter email purpose">
+
+    <select id="tone">
+        <option>Formal</option>
+        <option>Friendly</option>
+        <option>Persuasive</option>
+    </select>
+
+    <button onclick="generateEmail()">Generate Email</button>
+
+    <div id="output"></div>
+
+</section>
     <section class="features">
 
         <div class="card">
